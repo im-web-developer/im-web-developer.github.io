@@ -1,0 +1,19 @@
+h1{
+	font-family: ArialMT, sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 36px;
+	margin: 120px;
+}
+p{
+	font-family: ArialMT, sans-serif;
+	font-size: 18px;
+}
+img{
+	width: 128px;
+	height: 128px;
+	margin-bottom: 30px;
+}
+.box{
+	text-align: center;
+}
