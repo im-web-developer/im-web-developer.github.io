@@ -18,6 +18,7 @@
 		<!-- Подключаем наш файл со стилями, который находится в папке css-->
 		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
 		<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+		<link rel="stylesheet" href="css/animate.css">
 		<link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -28,15 +29,15 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-7">
-					<img class="header-img" src="img/main-img.png" alt="Монитор">
+					<img class="header-img wow fadeInLeftBig" src="img/main-img.png" alt="Монитор">
 				</div>
 				<div class="col-lg-5">
 					<div class="header-block">
-						<p class="header-pretitle">Веб разработчик</p>
-						<h1 class="header-title">Сухарев Денис</h1>
-						<p class="header-subtitle">Верстка на HTML/CSS <br> разработка сайта под ключ</p>
-						<div class="header-button-block">
-							<a href="https://vk.me/id496157144" class="header-button">Связаться</a>
+						<p class="header-pretitle wow  fadeInRightBig" data-wow-delay="0.1s">Веб разработчик</p>
+						<h1 class="header-title wow  fadeInRightBig" data-wow-delay="0.2s">Сухарев Денис</h1>
+						<p class="header-subtitle wow  fadeInRightBig" data-wow-delay="0.3s">Верстка на HTML/CSS <br> разработка сайта под ключ</p>
+						<div class="header-button-block wow  fadeInRightBig" data-wow-delay="0.4s">
+							<a href="https://vk.me/id496157144" class="header-button wow  fadeInRightBig" data-wow-delay="0.1s">Связаться</a>
 							<small>Это бесплатно</small>
 						</div>
 					</div>
@@ -47,7 +48,7 @@
 
 	<section class="portfolio">
 		<div class="container">
-			<div class="portfolio-block">
+			<div class="portfolio-block wow fadeIn">
 				<h2 class="portfolio-title">Портфолио</h2>
 				<p class="portfolio-subtitle">Мои работы</p>
 				<div class="row">
@@ -84,10 +85,10 @@
 				<div class="col-md-4">
 					<div class="social-block">
 						<p>Подпишитесь:</p>
-						<a href="https://vk.me/id496157144"><img src="img/social/facebook-logo-button.png" alt="facebook"></a>
-						<a href="https://vk.me/id496157144"><img src="img/social/telegram-symbol.png" alt="telegram"></a>
-						<a href="https://vk.me/id496157144"><img src="img/social/vk-social-logotype.png" alt="vk"></a>
-						<a href="https://vk.me/id496157144"><img src="img/social/youtube-symbol.png" alt="youtube"></a>
+						<a class="wow bounceInDown" data-wow-delay="0.1s" href="https://vk.me/id496157144"><img src="img/social/facebook-logo-button.png" alt="facebook"></a>
+						<a class="wow bounceInDown" data-wow-delay="0.2s" href="https://vk.me/id496157144"><img src="img/social/telegram-symbol.png" alt="telegram"></a>
+						<a class="wow bounceInDown" data-wow-delay="0.3s" href="https://vk.me/id496157144"><img src="img/social/vk-social-logotype.png" alt="vk"></a>
+						<a class="wow bounceInDown" data-wow-delay="0.4s" href="https://vk.me/id496157144"><img src="img/social/youtube-symbol.png" alt="youtube"></a>
 					</div>
 				</div>
 				<div class="col-md-4">
@@ -99,6 +100,9 @@
 			</div>
 		</div>
 	</footer>
-
+	<script src="js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
 </body>
 </html>
